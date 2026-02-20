@@ -16,6 +16,7 @@ body {
         display: flex;
         justify-content:center;
         align-items: center;
+             
 }
 
 .caixa1 {
@@ -24,4 +25,8 @@ body {
     border: 1px solid red;
     background-color: wheat;
     border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:  column;
 }
