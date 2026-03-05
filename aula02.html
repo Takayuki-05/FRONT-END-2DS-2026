@@ -87,7 +87,14 @@
     <a hidden="" style="text-decoration: none; color: brown;">qualquer coisa</a>
 
     <script>
-        alert("anjos sem paciência")
+        //SELICIONA OS ELEMENTOS DE HTML
+        const hamburguerbtn = document .getElementById('hamburguer-btn');
+        const navlinks = document.getElementById('nav-links')
+
+        //ADICIONA UM EVENTO AO BOTÃO DE CLICK
+        hamburguerbtn.addEventListener('click',() => {
+            navLinks.classList .toggle('active');
+        })
     </script>
 
 </body>
