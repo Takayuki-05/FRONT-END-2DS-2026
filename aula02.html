@@ -8,11 +8,17 @@
     <style>
             .navbar {
              background-color: black;
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             padding: 15px;
           }
             .logo {
                 color: white;
+                font-size: 20px;
+                font-weight: bold;
             }
-
+            
                 /*Estilo de lista de links*/
             .nav-links{
                  list-style: none;
@@ -54,7 +60,10 @@
                 text-align: center;
                 padding: 20px;
                 }
-
+                /*classe que utiliza Java para mostrar o menu*/
+                .nav-links.active{
+                    display:flex;
+                }
              }
     </style>
 
@@ -73,10 +82,17 @@
         <ul class="nav-links" id="nav-links">
             <li>
                 <a href="#">Início</a>
+            </li>
+            <li>
                 <a href="#">Sobre</a>
+            </li>
+            <li>
                 <a href="#">Serviços</a>
+            </li>
+            <li>
                 <a href="#">Contato</a>
             </li>
+            
         </ul>
     </nav>
     
