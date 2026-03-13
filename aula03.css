@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(135deg, #6696ea 0%, #084fdc 100%);
+    background: linear-gradient(135deg, #101081 0%,#526ac7 20%, #375fff 50%, #0a1195 100%);
     font-family: Arial, Helvetica, sans-serif;
 }
 
