@@ -12,70 +12,24 @@ body {
     background-color: rgb(255, 255, 255);
     width: 40%;
     height: 40%;
-    border:1px solid rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+
 }
 
 .caixa1 {
     width: 150px;
     height: 150px;
-    border: 1px solid rgb(34, 0, 255);
-    background-color: rgb(34, 0, 255);
+    background-color: rgb(206, 88, 173);
     border-radius: 10px;
     display: flex;
     justify-content:center ;
     align-items: center;
     flex-direction: column;
+    gap: 20px;
+    font-size: 27px;
 
+}
   
-}
-  .container-caixa1 {
-    display: flex;
-    gap: 20px; /* Define um espaço de 20px entre cada item */
-}
-
-.caixa2 {
-    width: 150px;
-    height: 150px;
-    border: 1px solid rgb(34, 0, 247);
-    background-color: rgb(34, 0, 247);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.caixa3 {
-    width: 150px;
-    height: 150px;
-    border: 1px solid rgb(34, 0, 255);
-    background-color: rgb(34, 0, 255);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.teste {
-    width: 70%;
-    height: 70%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-}
-
-input {
-    width:90%;
-    padding: 10px;
-}
-
-.label {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
