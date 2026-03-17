@@ -17,6 +17,7 @@ body{
 .carousel{
     width: 600px;
     height: 400px;
+    position: relative;
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 0 20px 60px rgb(255, 255, 255);
@@ -25,6 +26,7 @@ body{
 .carousel-slides{
     display: flex;
     width: 30%;
+    height: 100%;
     height: slide 15s infinite;
 }
 
@@ -42,11 +44,11 @@ body{
 }
 
 .slide:nth-child(1){
-    background: linear-gradient(45deg,#ff6b6b, #feca57);
+    background: linear-gradient(45deg,#ff6b6b, #4ae6db);
 }
-.slide:nth-child(1){
+.slide:nth-child(2){
     background: linear-gradient(45deg,#d01cb5, #a5fe57);
 }
-.slide:nth-child(1){
+.slide:nth-child(3){
     background: linear-gradient(45deg,#8630bc, #130e6b);
 }
