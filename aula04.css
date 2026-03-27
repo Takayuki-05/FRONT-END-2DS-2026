@@ -10,8 +10,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;    
-    min-width: 100vh;
-    background: linear-gradient(135deg, #667eed, 0%, #764ba2 100%);
+    min-height: 100vh;
+    background: linear-gradient(135deg, #60104c 0%, #f58bce 50%, #750f51 100%);
 }
 
 /*CARD PRINCIPAL*/
@@ -24,4 +24,43 @@ body{
     max-width: 400px;
     text-align: center;
     transition: transform 0.3s ease;
+}
+.form-container:hover{
+    transform: translateY(-5px);
+}
+.form-container h2 {
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.form-container p {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #0f0404;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    background-color: #e983d7;
 }
